@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/errors/index.js",
+    "src/errors/bad-request.js",
+    "src/errors/custom-api.js",
+    "src/errors/index.js"
+  ],
+  "exclude": ["node_modules"],
+  "files": ["types.d.ts"]
+}
